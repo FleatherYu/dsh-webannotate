@@ -24,6 +24,14 @@ webview.capturePage()                // 每条批注截一张图
 
 ## 安装
 
+从 npm 装：
+
+```bash
+dsh plugin --profile desktop add dsh-webannotate
+```
+
+或者直接从 GitHub 装：
+
 ```bash
 dsh plugin --profile desktop add github:FleatherYu/dsh-webannotate
 ```
