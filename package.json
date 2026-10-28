@@ -1,0 +1,45 @@
+{
+  "name": "dsh-webannotate",
+  "version": "0.1.0",
+  "description": "Annotate web pages inside DeepSeek Harness's built-in browser: click an element, leave a comment, send the batch to the conversation as one review request.",
+  "type": "module",
+  "license": "MIT",
+  "author": "FleatherYu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FleatherYu/dsh-webannotate.git"
+  },
+  "homepage": "https://github.com/FleatherYu/dsh-webannotate#readme",
+  "bugs": {
+    "url": "https://github.com/FleatherYu/dsh-webannotate/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "annotation",
+    "web-annotation",
+    "built-in-browser",
+    "webview"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./web/overlay.js": "./web/overlay.js"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "web/overlay.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
