@@ -1,6 +1,6 @@
 {
   "name": "dsh-webannotate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Annotate web pages inside DeepSeek Harness's built-in browser: click an element, leave a comment, send the batch to the conversation as one review request.",
   "type": "module",
   "license": "MIT",
@@ -32,6 +32,7 @@
     "client.js",
     "cordis.patch.yml",
     "web/overlay.js",
+    "docs/screenshots",
     "README.md",
     "LICENSE"
   ],

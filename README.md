@@ -46,6 +46,8 @@ dsh plugin --profile desktop add "link:/路径/dsh-webannotate"
 
 ## 用法
 
+![内置浏览器里的批注列表面板](docs/screenshots/list-panel.png)
+
 1. 在内置浏览器打开页面，右下角出现「批注」按钮。
 2. 点它进入标注模式，鼠标移到元素上会高亮，点一下就弹出评论框。
 3. 写一句要怎么改，`Ctrl+Enter` 或「保存」；保存后元素右上角出现编号。
