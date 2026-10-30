@@ -375,7 +375,7 @@
     textarea:focus { border-color: #2f6feb; box-shadow: 0 0 0 3px rgba(47,111,235,.13); }
     .actions { display: flex; align-items: center; gap: 6px; }
     .hint { flex: 1; color: #8a939d; font-size: 10.5px; }
-    .btn { height: 24px; padding: 0 10px; border-radius: 6px; border: 1px solid #d8dde5; color: #1f2328; font-size: 11.5px; }
+    .btn { flex: none; white-space: nowrap; height: 24px; padding: 0 10px; border-radius: 6px; border: 1px solid #d8dde5; color: #1f2328; font-size: 11.5px; }
     .btn:hover { background: #f6f8fa; }
     .btn.primary { background: #2f6feb; border-color: #2f6feb; color: #fff; }
     .btn.primary:hover { background: #2760d0; }
@@ -408,7 +408,8 @@
     .row .tools button { width: 18px; height: 18px; border-radius: 4px; color: #8a939d; font-size: 11px; }
     .row .tools button:hover { background: #f1f3f6; color: #1f2328; }
     .list > footer { display: flex; align-items: center; gap: 6px; padding: 6px 8px; border-top: 1px solid #eef1f5; background: #fbfcfd; }
-    .list > footer .spacer { flex: 1; }
+    .list > footer .url { min-width: 0; flex: 0 1 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #8a939d; font-size: 10.5px; }
+    .list > footer .spacer { flex: 1; min-width: 8px; }
     .empty { padding: 16px 9px; color: #8a939d; font-size: 11.5px; text-align: center; }
 
     .toast {
